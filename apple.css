@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* navigation */
+
+.navigation{
+    background:hsl(240, 0%, 25%);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation img{
+    height: 35px;
+    width: 35px;
+    margin-left: 120px;
+}
+.navigation ul li{
+    font-size: 13px;
+    margin-left: 35px;
+    font-weight:lighter;
+}
+
+/* advertisement */
+
+.advertisement{
+    background: #fff;
+    height: 30px;
+    margin-left: 250px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.advertisement a{
+    color: #06c;
+}
+
+/* Card 1 */
+
+.card1{
+    background: url('./img/macbook-pro-13b.png.jpg') no-repeat center center/cover;
+    height: 569px;
+}
+.card1 h1{
+    color: #fff;
+    font-size: 45px;
+    padding-top: 40px;
+    margin-left: 450px;
+}
+.card1 img{
+    height: 70px;
+    padding-left: 500px;
+}
+.card1 p{
+    margin-left: 550px;
+    padding-top: 2px;
+}
+.card1 p a{
+    color: #2997ff;
+}
+.card1 p i{
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+/* card2 */
+.card2{
+    background: url('./img/macbook-air.png') no-repeat center center/cover;
+    height: 613px;
+    margin-left: 200px;
+}
+.card2 h1{
+    color: #000;
+    font-size: 48px;
+    padding-top: 240px;
+}
+.card2 img{
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.card2 h3{
+    font-weight: lighter;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 65px;
+}
+.card2 p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.card2 p a{
+    color: #2997ff; 
+}
+.card2 p i{
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+/* card3 */
+.card3{
+    background: url('./img/education.png') no-repeat center;
+    height: 522px;
+    background-color: #f5f5f7;
+}
+.card3 h1{
+    color: #000;
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left: 250px;
+    font-style: italic;
+}
+.card3 h2{
+    font-weight: lighter;
+    padding-left: 370px;
+    padding-top: 3px;
+}
+.card3 p{
+    padding-left: 570px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.card3 p a{
+    color: #2997ff; 
+}
+.card3 p i{
+    font-size: 15px;
+}
+
+/* cards-grid */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+/* card4 */
+.cards .card4{
+    background: url('./img/iphone13.jpg') no-repeat;
+    height: 498px;
+    margin-bottom: 10px;
+}
+.cards .card4 h1{
+    padding-left: 140px;
+    padding-top: 60px;
+    color: #000;
+    font-size: 40px;
+}
+.cards .card4 h2{
+    padding-left: 220px;
+    padding-top: 10px;
+}
+.cards .card4 p{
+    padding-left: 190px;
+}
+.cards .card4 p a{
+    color: #2997ff; 
+}
+.cards .card4 p i{
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+/* card5 */
+
+.cards .card5{
+    background: url('./img/watch-series-img-7.png') no-repeat;
+    height: 498px;
+    margin-bottom: 10px;
+}
+.cards .card5 img{
+    height: 100px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.cards .card5 h2{
+    padding-left: 140px;
+    padding-top: 10px;
+}
+.cards .card5 p{
+    padding-left: 200px;
+}
+.cards .card5 p a{
+    color: #2997ff; 
+}
+.cards .card5 i{
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+/* card6 */
+.cards .card6{
+    background: url('./img/ipad-air-img.png') no-repeat;
+    height: 498px;
+    margin-bottom: 10px;
+}
+.cards .card6 img{
+    height: 100px;
+    padding-left: 160px;
+    padding-top: 40px;
+}
+.cards .card6 h2{
+    padding-left: 130px;
+    padding-top: 3px;
+    color: #fff;
+    font-weight: lighter;
+}
+.cards .card6 p{
+    padding-top: 10px;
+    padding-left: 170px;
+}
+.cards .card6 p a{
+    color: #2997ff; 
+}
+.cards .card6 i{
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+/* card7 */
+.cards .card7{
+    background: url('./img/mac-studio.jpg') no-repeat;
+    height: 498px;
+    margin-bottom: 10px;
+}
+.cards .card7 h1{
+    padding-left: 140px;
+    padding-top: 60px;
+    color: #000;
+    font-size: 50px;
+}
+.cards .card7 h2{
+    padding-left: 180px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+.cards .card7 p{
+    padding-left: 190px;
+    padding-top: 10px;
+}
+.cards .card7 p a{
+    color: #2997ff; 
+}
+.cards .card7 p i{
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+/* card8 */
+.cards .card8{
+    background: url('./img/apple-arcade.png') no-repeat;
+    height: 442px;
+    margin-bottom: 10px;
+}
+.cards .card8 img{
+    height: 110px;
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.cards .card8 h2{
+    padding-left: 160px;
+    padding-top: 30px;
+    color: #000;
+    font-weight: lighter;
+}
+.cards .card8 p{
+    padding-top: 10px;
+    padding-left: 190px;
+}
+.cards .card8 p a{
+    color: #2997ff; 
+}
+.cards .card8 i{
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+/* card9 */
+.cards .card9{
+    background: url('./img/tv+promo-lady.jpg') no-repeat;
+    height: 442px;
+    margin-bottom: 10px;
+}
+.cards .card9 img.tv{
+    padding-top: 10px;
+    padding-left: 240px;
+    height: 40px;
+    margin-top: 30px;
+}
+.cards .card9 img.physical{
+    padding-top: 100px;
+    padding-left: 120px;
+    height: 230px;
+    margin-top: 100px;
+}
+.cards .card9 h2{
+    font-weight: lighter;
+    font-size: 17px;
+    padding-left: 240px;
+    color: #fff;
+}
+
+/* terms  */
+.terms{
+    background: #f5f5f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.terms p{
+    font-size: 13px;
+    color: #616161;
+}
+
+.links{
+    background: #f5f5f7;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 15px;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+}
+.inner-links{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.links .inner-links a{
+    color: #616161;
+}
+.links li{
+    line-height: 2.0;
+}
+.links a:hover{
+    border-bottom: #000 1px solid;
+}
+.links .inner-links h3{
+    font-size: 12px;
+    font-weight:bold;
+    color: #000;
+}
+.links p{
+    padding-top: 20px;
+    font-size: 14px;
+    color: #616161;
+    padding-bottom: 10px;
+}
+
+/* footer */
+.footer{
+    background: #f5f5f7;
+    color: #616161;
+    font-size: 13px;
+}
+.inner-footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner-footer a{
+    color: #616161;
+    margin-left: 30px;
+}
+.inner-footer a:hover{
+    border-bottom: #000 1px solid; 
+}
+.footer div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer div i{
+    margin-right: 10px;
+}
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer h5{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
